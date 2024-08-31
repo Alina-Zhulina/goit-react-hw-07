@@ -1,0 +1,30 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+  margin-bottom: 10px;
+}
+
+.contactInfo,
+.contactNumber {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contactName,
+.contactNumber p {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #333;
+}
+
+.contactNumber .icon {
+  transform: rotate(90deg);
+}

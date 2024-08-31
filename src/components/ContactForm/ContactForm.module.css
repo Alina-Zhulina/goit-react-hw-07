@@ -1,0 +1,53 @@
+.form {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #aaa5a5;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.errorMessage {
+  color: rgb(207, 22, 22);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+}
+
+button:hover {
+  border-color: #43434c;
+}
+
+button:focus,
+button:focus-visible {
+  border: none;
+  outline: none;
+}
